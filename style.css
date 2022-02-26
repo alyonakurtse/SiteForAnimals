@@ -11,16 +11,20 @@
     margin-top: -1rem;
 }
 #table{
-    width: 30rem;
+    width: 35rem;
     background: whitesmoke;
-    margin-left:12.5rem;
+    margin-left:25rem;
+    margin-top:-15rem;
 }
 #ourPets{
-     margin-left:29rem;
-     font-style:italic;
+
+    margin-left:38.5rem;
+    margin-top:-16rem;
+    font-style:italic;
 }
 #seeMore{
-  margin-left:43rem;
+  margin-left:51rem;
+  margin-top:14rem;
 }
 #progressHelp{
     margin-top:2rem;
@@ -35,4 +39,16 @@
 #giveHelp{
     margin-left:31rem;
     margin-top:-3.4rem;
+}
+#docCard{
+    width:15rem;
+}
+#conCard{
+    width:15rem;
+}
+#jobCard{
+    width:15rem;
+}
+.card-text{
+    font-size: 0.8rem;
 }
