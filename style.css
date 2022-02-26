@@ -1,0 +1,21 @@
+#quote{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-style:italic;
+}
+#heading{
+     margin-left: 26rem;
+}
+#underHead{
+    margin-left: 4rem;
+    margin-top: -1rem;
+}
+#table{
+    width: 40rem;
+    background: whitesmoke;
+    margin-left:12.5rem;
+}
+#ourPets{
+     margin-left:29rem;
+     font-style:italic;
+}
