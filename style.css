@@ -11,11 +11,28 @@
     margin-top: -1rem;
 }
 #table{
-    width: 40rem;
+    width: 30rem;
     background: whitesmoke;
     margin-left:12.5rem;
 }
 #ourPets{
      margin-left:29rem;
      font-style:italic;
+}
+#seeMore{
+  margin-left:43rem;
+}
+#progressHelp{
+    margin-top:2rem;
+    border-radius: 10rem;
+    width:30rem;
+}
+#help{
+    margin-top:1rem;
+    margin-bottom: -2rem;
+    margin-left: 1.25rem;
+}
+#giveHelp{
+    margin-left:31rem;
+    margin-top:-3.4rem;
 }

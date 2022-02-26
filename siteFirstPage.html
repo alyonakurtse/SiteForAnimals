@@ -18,14 +18,13 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <p id="ourPets">Наши питомцы</p>
-  <table class="table" id="table">
+  <table class="table table-bordered border-success border border-3"  id="table" >
   <thead>
     <tr>
       <th scope="col" >Вид</th>
       <th scope="col" >Имя</th>
       <th scope="col" >Возраст</th>
       <th scope="col"  >Окрас</th>
-      <th scope="col"  >Дополнительная информация</th>
     </tr>
   </thead>
   <tbody>
@@ -34,33 +33,31 @@
       <td>Боня</td>
       <td>1 год</td>
       <td>серый</td>
-      <td>очень ласковый пёс</td>
     </tr>
     <tr>
       <td>кошка</td>
       <td>Филиция</td>
       <td>3 месяца</td>
       <td>черно-белый</td>
-      <td>любит играть с детьми</td>
     </tr>
     <tr>
       <td>собака</td>
       <td>Рекс</td>
       <td>6 месяцев</td>
       <td>рыжий</td>
-      <td>знает команды сидеть, лежать и голос</td>
     </tr>
    <tr>
       <td>кошка</td>
       <td>Лапа</td>
       <td>2 года</td>
       <td>черный</td>
-      <td>даёт лапку</td>
     </tr>
   </tbody></table>
-  <div class="progress">
-  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+  <button id="seeMore" class="btn btn-primary" type="button">Посмотреть ещё</button>
+  <p id="help">Пожертвование на покупку тележки корма для животных</p>
+  <div class="progress" style="height: 25px;" id="progressHelp">
+  <div class="progress-bar  bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
   </div>
-
+  <button id="giveHelp" class="btn btn-primary btn-sm" type="button">Пожертвовать</button>
   </body>
 </html>
