@@ -14,7 +14,7 @@
     width: 35rem;
     background: whitesmoke;
     margin-left:25rem;
-    margin-top:-15rem;
+    margin-top:-10rem;
 }
 #ourPets{
 
@@ -49,6 +49,12 @@
 #jobCard{
     width:15rem;
 }
+#cat{
+    margin-top:-47rem;
+    margin-left:39rem;
+    height: 17rem;
+}
+
 .card-text{
     font-size: 0.8rem;
 }
